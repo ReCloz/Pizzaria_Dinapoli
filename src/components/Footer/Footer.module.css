@@ -1,0 +1,79 @@
+@import '../../App.css';
+
+.footer{
+ background-color: rgb(102,13,13);
+ background: linear-gradient(0deg, rgba(102,13,13,1) 0%, rgba(51,11,11,1) 36%, rgba(9,9,9,1) 100%);
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ min-height: 10%;
+ color: white;
+}
+
+.hr{
+color: white;
+width: 100%;
+margin-top: 20px;
+position: fixed;
+}
+
+.divrodape{
+    text-align: center;
+    font-size: 11px;
+    margin-top: 25px;
+}
+
+
+
+.links{
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: 3px;
+    list-style: none;
+}
+
+.divcontainer{
+    padding: 3rem 3.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.divredes{
+    display: flex;
+    transition: all 0.3s ease-out;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .divcontainer{
+        justify-content: space-between;
+        font-size: 11px;
+        padding: 10px;
+    }
+
+    .divcardapio{
+     margin-bottom: 10px;
+     
+        
+    }
+
+    .links {
+        font-size: 8px;
+    }
+
+    .divsobre{
+        margin-bottom: 10px;
+    }
+
+    .divcliente{
+        margin-bottom: 10px;
+    }
+ 
+    
+    
+}
