@@ -7,7 +7,7 @@ export default function Main(){
     return(
      <div>
         <NavBar/>
-
+        
         <Footer/>
      </div>
 

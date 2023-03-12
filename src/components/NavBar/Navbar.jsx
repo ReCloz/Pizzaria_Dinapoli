@@ -2,6 +2,9 @@ import styles from "./NavBar.module.css";
 import React, { useState, useEffect } from "react";
 import { FaUserCircle, FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import logo from '../../assets/logo.png'
+import Login from "../Login/Login";
+/* import main from '../../main' */
 
 export default function NavBar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -29,8 +32,10 @@ export default function NavBar() {
   return (
     <div>
       <nav className={styles.nav}>
-        <Link to="/" className={styles.logo} />
-
+        <Link to="/main"  style={{color:"white",fontSize:"15px", marginBottom:"2px", marginTop:"10px"}}>
+        <img src={logo} className={styles.logo} />
+        Pizzaria Di Napoli
+        </Link>
         <div className={styles.menu} onClick={handleMenuClick}>
           <FaBars className={styles.bars} />
         </div>
@@ -54,9 +59,10 @@ export default function NavBar() {
             Bebidas
           </li>
           <li className={styles.link}>
-            <Link to="/" />
+            <Link to="/Login" className={styles.linklogin}>
             <FaUserCircle style={{ marginBottom: "-2px", size: "25X25" }} />
             Login
+            </Link>
           </li>
         </ul>
       </nav>

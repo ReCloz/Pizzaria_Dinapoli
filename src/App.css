@@ -3,7 +3,7 @@
 :root {
   --preto: #090909; 
   --vinho: #660d0d;
-  --cinza: #EDEDED;
+  --cinza: #f0e2e2;
   --cinzamedio: #464646;
   --cinzaescuro: #181818;
 }
@@ -38,20 +38,11 @@
 }
 
 body {
-  background-color: var(--cinza);
+  background-image: url('./assets/fundo.png');
   width: 100%;
 }
 
-input{
-  height: 2.2rem;
-  border-radius: 10px;
-  background-color: var(--cinza);
-  border: 2px solid var(--cinzaescuro);
-  caret-color: var(--vermelho);
-}
 
-input:focus {
-  outline: 2px ridge var(--vermelho);
-}
+
 
 
