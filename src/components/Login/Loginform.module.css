@@ -27,12 +27,20 @@ border-radius: 2px;
   color:#660d0d;
 }
 
-
+.eye{
+  float: right;
+  margin-top: -20px;
+  z-index: 9999;
+  position: relative;
+  margin-right: 2px;
+  cursor: pointer;
+}
 
 .cadastro{
  
  font-size: 11px;
  color: var(--cinzamedio);
+ 
 
 }
 .container{
