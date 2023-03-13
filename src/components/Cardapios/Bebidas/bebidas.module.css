@@ -1,0 +1,108 @@
+@import "../../../App.css";
+
+.box1{
+    width: 1000px;
+    height: 350px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    margin-top: -40px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 3px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.box2{
+    width: 300px;
+    height: 350px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 40px;
+    border-radius: 3px;
+}
+
+.link {
+    color: white ;
+    text-decoration: none ;
+    font-size: 13px;
+    transition: 0.3s ;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+}
+
+body{
+    margin: auto;
+}
+
+h2 {
+    margin-left: -30px;
+    margin-top: -30px;
+    color: #742020;
+}
+
+
+main {
+    margin: auto;
+    width: 1440px;
+    height: 940px;
+
+    background-color: #24271A;
+    background-size: cover;
+
+
+}
+
+.telabebidasitemunico img {
+    width: 100%;
+    min-height: 270px;
+    object-fit: cover;
+}
+
+.telabebidasitemunico figcaption {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 69px;
+
+    position: relative;
+    bottom: 60px;
+}
+
+.telabebidasitemunico figcaption h1 {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 7px;
+    color: #742020;
+}
+
+.telabebidasitemunico figcaption h2 {
+    position: relative;
+    top: 20px;
+    left: 10px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 7px;
+    color: #742020;
+}
+

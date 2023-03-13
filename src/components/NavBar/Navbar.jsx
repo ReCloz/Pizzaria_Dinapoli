@@ -32,7 +32,7 @@ export default function NavBar() {
   return (
     <div>
       <nav className={styles.nav}>
-        <Link to="/main"  style={{color:"white",fontSize:"15px", marginBottom:"2px", marginTop:"10px"}}>
+        <Link to="/main"  style={{color:"white",fontSize:"15px", display: "flex", alignItems: "center"}}>
         <img src={logo} className={styles.logo} />
         Pizzaria Di Napoli
         </Link>
@@ -47,20 +47,23 @@ export default function NavBar() {
           }`}
         >
           <li className={styles.link}>
-            <Link to="/" />
+            <Link to="/Pizzas" className={styles.linkpizzas}>
             Pizzas
+            </Link>
           </li>
           <li className={styles.link}>
-            <Link to="/" />
+            <Link to="/Massas" className={styles.linkmassas}>
             Massas
+            </Link>
           </li>
           <li className={styles.link}>
-            <Link to="/" />
+            <Link to="/Bebidas" className={styles.linkbebidas}>
             Bebidas
+            </Link>
           </li>
           <li className={styles.link}>
             <Link to="/Login" className={styles.linklogin}>
-            <FaUserCircle style={{ marginBottom: "-2px", size: "25X25" }} />
+            <FaUserCircle style={{ marginBottom: "-3px",size: "25X25"}} />
             Login
             </Link>
           </li>

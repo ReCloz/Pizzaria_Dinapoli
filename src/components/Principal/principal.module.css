@@ -1,0 +1,101 @@
+@import "../../App.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+}
+
+body{
+    margin: auto;
+}
+
+.fundo {
+    margin: auto;
+
+
+    background-image: url("../../assets/principal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -125px;
+
+}
+
+.telainicial {
+    position: relative;
+    background-color: white;
+    width: 640px;
+    height: 560px;
+    left: 690px;
+    top: 115px;
+    border-radius: 10px;
+
+    box-shadow: -30px 30px #742020, 30px -30px #742020;
+}
+
+.textotelainicial {
+    font-family: 'Rufina', serif;
+    font-style: bold;
+    font-size: 14px;
+    line-height: 46px;
+    color: #3D1111;
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 290px;
+    top: 40px;
+    left: 20px;
+    
+    border: 3px solid white;
+
+}
+
+.botaocadastro {
+    background-color: #742020;
+    color: #E0E0E0;
+    border-radius: 6px;
+    border: 0px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    height: 55px;
+    width: 240px;
+    box-shadow: 2px 2px 2px darkgray;
+
+    position: absolute;
+    bottom: 120px;
+    left: 68px;
+
+}
+
+.botaoaqui {
+    background-color: #2E2323;
+    color: #E0E0E0;
+    border-radius: 6px;
+    border: 0px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    height: 55px;
+    width: 240px;
+    box-shadow: 2px 2px 2px darkgray;
+
+    position: absolute;
+    bottom: 120px;
+    right: 68px;
+
+}
+
+.detalhe {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+}
+

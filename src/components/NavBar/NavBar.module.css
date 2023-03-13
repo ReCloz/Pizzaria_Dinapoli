@@ -1,34 +1,59 @@
 @import "../../App.css";
 
- .link {
+.linkbebidas {
   color: white ;
   text-decoration: none ;
   font-size: 13px;
   transition: 0.3s ;
-  
-  
 }
+
+.linkbebidas:hover{
+  color:white;
+}
+ 
+.linkmassas:hover{
+  color:white;
+}
+
+.linkpizzas:hover{
+  color:white;
+}
+
+.linkmassas{
+  color: white ;
+  text-decoration: none ;
+  font-size: 13px;
+  transition: 0.3s ;
+}
+
+.linkpizzas{
+  color: white ;
+  text-decoration: none ;
+  font-size: 13px;
+  transition: 0.3s ;
+}
+
+
 .logo{
   width: 30px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 2px;
+  padding: 5px; 
 }
 
-
-
-
+.linklogin:hover{
+ color: white;
+}
 
 .menu div{
     width: 30px;
     height: 2px;
     background-color: white;
-    margin: 8px;
+    padding: 16px;
 }
 
 
 link:hover{
   opacity: 0.7;
+  
 }
 
 .nav{
@@ -65,16 +90,15 @@ link:hover{
  }
   
 
-
-.navlist {
+ .navlist {
     list-style:none;
     display: none;
     transition: all 0.3s ease-out;
-}
+ }
 
 .navlist li {
     letter-spacing: 4px;
-    margin-left: 10px;
+    padding: 16px;
     cursor: pointer;
 }
 
@@ -94,8 +118,6 @@ link:hover{
     
   }
 
- 
-  
   .bars{
     
     color: white;
