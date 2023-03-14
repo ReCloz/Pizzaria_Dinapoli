@@ -1,12 +1,5 @@
 @import "../../App.css";
 
-@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-
-
-* {
-    margin: 0;
-}
 
 body{
     margin: auto;
@@ -27,9 +20,9 @@ body{
     position: relative;
     background-color: white;
     width: 640px;
-    height: 560px;
+    height: 320px;
     left: 690px;
-    top: 115px;
+    top: 40px;
     border-radius: 10px;
 
     box-shadow: -30px 30px #742020, 30px -30px #742020;

@@ -9,8 +9,7 @@ export default function Principal() {
       <div className={style.fundo}>
         <div className={style.telainicial}>
           <div className={style.textotelainicial}>
-            <h1>Comida Italiana</h1>
-            <h1>de verdade</h1>
+            <h1>Comida Italiana de verdade</h1>
             <h1>na porta da sua casa</h1>
           </div>
 
